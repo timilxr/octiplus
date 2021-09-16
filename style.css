@@ -14,6 +14,8 @@
         font-display: fallback; /* Define how the browser behaves during download */
       }
 }
+@import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
+                
 
 .gradient{
     background-image: linear-gradient(to right, rgb(150, 166, 175), white);
@@ -23,11 +25,11 @@
   font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 60.9487px;
-line-height: 66px;
+font-size: 5vw;
+line-height: 5vw;
 
-display: flex;
-align-items: center;
+/* display: flex;
+align-items: center; */
 
 color: #004A80;
 }
@@ -36,9 +38,9 @@ color: #004A80;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 1000;
-font-size: 120px;
-line-height: 42px;
-letter-spacing: 5.5px;
+font-size: 9.8vw;
+line-height: 3.2vw;
+letter-spacing: 0.8vw;
 color: #004A80;
 }
 
@@ -126,17 +128,20 @@ line-height: 28px;
 color: #FFFFFF;
 opacity: 0.5;
 }
+.colors{
+  width: 40vw;
+}
 .phone{
   position: absolute;
   height: 620px;
-  width: 600px;
+  width: 48vw;
   /* background-color: red; */
-  top: 138px;
-  right: 80px;
+  top: 12vw;
+  right: 7vw;
   background-image: url(./assets/phone.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    /* background-position: 400px 200px; */
+    background-position: center;
 }
 
 #services{
@@ -151,8 +156,8 @@ opacity: 0.5;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
-font-size: 38px;
-line-height: 64px;
+font-size: 3vw;
+line-height: 5vw;
 text-align: center;
 
 color: #FFFFFF;
@@ -194,8 +199,8 @@ color: #FFFFFF;
   font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 50px;
-line-height: 44px;
+font-size: 4vw;
+line-height: 3vw;
 color: #004A80;
 }
 
@@ -203,23 +208,21 @@ color: #004A80;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
-font-size: 100px;
-line-height: 54px;
+font-size: 8vw;
+line-height: 4vw;
 color: #004A80;
 }
 
 .octipus-text{
   width: 72%;
-  margin-top: 30px;
+  margin-top: 4vw;
 }
 .octipus-text p{
-  font-family: Avenir LT Std;
+  font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 15px;
-/* text-align: center; */
-/* letter-spacing: 0.1px; */
+font-size: 1.6vw;
+line-height: 0.5vw;
 color: #004A80;
 }
 
@@ -229,16 +232,16 @@ color: #004A80;
 }
 
 .buttons{
-  width: 60%;
+  width: 40vw;
 }
 
 .phoneman{
   position: absolute;
   height: 620px;
-  width: 600px;
+  width: 48vw;
   /* background-color: red; */
-  top: 90px;
-  left: 10px;
+  top: 7vw;
+  left: 1.6vw;
   background-image: url(./assets/phoneman.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -264,15 +267,59 @@ color: #004A80;
 }
 
 @media screen and (max-width: 576px) {
-  .welcome-text{
-    font-size: 0.3vw;
-    line-height: 20px;
-  }
-  .vers-text{
-    font-size: 0.4vw;
-    line-height: 23px;
-  }
+  .header-text{
+    font-size: 4vw;
+    /* line-height: 3vw; */
+letter-spacing: 3.5px;
+}
   .phone{
-    display: none;
+    /* display: none; */
+    height: 30vw;
+    /* background-color: red;; */
+    top: 46vw;
+  }
+  .services-head{
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+  #services p{
+    font-size: 4vw;
+  }
+  #demacator1{
+    /* height: 100%; */
+    top: 150px;
+    width: 100%;
+    /* background-color: red; */
+    left: 0;
+    background-position: 30px 0px;
+  }
+  #demacator2{
+    /* height: 100%; */
+    top: 0px;
+    width: 100%;
+    /* background-color: red; */
+    left: 0;
+    background-position: -320px 10px;
+  }
+  .header-text2{
+    line-height: 1vw;
+  }
+  .vers-text2{
+    font-size: 7vw;
+    line-height: 2vw;
+  }
+  .octipus-text{
+    width: 78%;
+  }
+  .octipus-text p{
+    text-align: left;
+    font-size: 1.9vw;
+    line-height: 1px;
+  }
+  .buttons{
+    width: 45vw;
+  }
+  .phoneman{
+    top: 27vw;
   }
 }
