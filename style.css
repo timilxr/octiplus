@@ -50,7 +50,7 @@ header{
 }
 
 .vers-text{
-  font-family: Montserrat;
+  font-family: 'Montserrat';
 font-style: normal;
 font-weight: 900;
 font-size: 10.8vw;
@@ -69,6 +69,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 1.53vw;
 line-height: 3.75vw;
+padding-top: 1vw;
 /* identical to box height, or 245% */
 
 letter-spacing: 0.59vw;
@@ -102,7 +103,7 @@ color: #004A80;
 }
 
 #footer{
-  padding-bottom: 100px;
+  padding-bottom: 6.94vw;
   /* background-color: red; */
 }
 
@@ -133,7 +134,8 @@ color: #F9F9FA;
 
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 1.20vw;
+/* font-size: 16px; */
 line-height: 28px;
 color: #FFFFFF;
 opacity: 0.5;
@@ -161,8 +163,15 @@ color: #FFFFFF;
 }
 .colors{
   width: 40vw;
-  margin-left: 35px;
-  margin-top: 70px;
+  margin-left: 2.43vw;
+  /* margin-left: 35px; */
+  margin-top: 4.9vw;
+}
+.colors2{
+  width: 40vw;
+  margin-left: 2.43vw;
+  /* margin-left: 35px; */
+  margin-top: 4.9vw;
 }
 .phone{
   position: absolute;
@@ -171,7 +180,7 @@ color: #FFFFFF;
   /* width: 601px; */
   /* background-color: red; */
   top: 150px;
-  right: 8.27vw;
+  right: 4.27vw;
   background-image: url(./assets/phone.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -180,7 +189,8 @@ color: #FFFFFF;
 
 #services{
   /* height: 2021px; */
-  padding: 188px 42px 111px 47px !important;
+  padding: 13.06vw 2.92vw 7.71vw 3.26vw !important;
+  /* padding: 188px 42px 111px 47px !important; */
   background: #004A80;
   background-image: url(./assets/bg-oc.svg);
   background-position: center;
@@ -239,7 +249,7 @@ color: #FFFFFF;
 .welcome-main{
   /* width: 100%; */
   /* background-color: red; */
-  padding: 14.9vw 0px 200px 28.75vw;
+  padding: 14.9vw 0px 13.89vw 28.75vw;
 }
 
 #demacator2{
@@ -328,7 +338,7 @@ top: 14.4vw;
     /* background-color: red; */
     top: 1.53vw;
     /* top: 840px; */
-    right: 200px;
+    right: 13.89vw;
     background-image: url(./assets/battery.svg);
       background-size: contain;
       background-repeat: no-repeat;
@@ -339,28 +349,41 @@ top: 14.4vw;
   width: 12.89vw;
   height: 3.819vw;
 }
+
+.social-img{
+  width: 12.89vw;
+  height: 3.819vw;
+}
 .bottom-container{
   background-image: url(./assets/gradient\ background.svg);
   background-position: 0 -800px;
   background-repeat: no-repeat;
 }
+.social{
+  width: 10vw;
+  margin-left: auto;
+  margin-right: 3vw;
+}
+.col-social{
+  width: 15%;
+}
 
 .question{
   width: 50%;
-  margin-left: 120px;
+  margin-left: 8.33vw;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .header-text{
-    font-size: 4vw;
+    font-size: 3vw;
     /* line-height: 3vw; */
 letter-spacing: 3.5px;
 }
   .phone{
     /* display: none; */
-    height: 30vw;
+    /* height: 30vw; */
     /* background-color: red;; */
-    top: 46vw;
+    top: 19vw;
   }
   .services-head{
     font-size: 6vw;
@@ -395,34 +418,86 @@ letter-spacing: 3.5px;
     background-position: -320px 10px;
   }
   .header-text2{
-    line-height: 1vw;
+    line-height: 2.8vw;
   }
   .vers-text2{
     font-size: 7vw;
     line-height: 2vw;
   }
   .octipus-text{
-    width: 78%;
+    width: 100%;
+    padding-left: 4vw;
   }
   .octipus-text p{
     text-align: left;
     font-size: 1.9vw;
-    line-height: 1px;
+    line-height: 0.069vw;
   }
   .buttons{
-    width: 45vw;
+    /* width: 45vw; */
+    padding-left: 25vw;
   }
   .phoneman{
-    top: 27vw;
+    top: 20vw;
+    width: 45.39vw;
+height: 65.2vw;
   }
   .question{
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .battery{
-    top: 60vw;
+    height: 14.83vw;
+    width: 25.69vw;
+    /* background-color: red; */
+    top: 5.53vw;
   }
   .footer-bottom div p{
     font-size: 4vw;
   }
+  .colors2{
+    margin-top: 1.9vw;
+  }
+  .bottom-container{
+    /* background-image: url(./assets/gradient\ background.svg); */
+    background-position: 0 -55.56vw;
+    /* background-repeat: no-repeat; */
+  }
+  .about{
+  letter-spacing: 2.5px;
+  }
+  .footer-bottom div p{
+  font-size: 1.20vw;
+  }
+  .social{
+    width: 15vw;
+  }
+  .col-social{
+    width: 15%;
+  }
+  .social-img{
+    width: 12.89vw;
+  height: 2.319vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header-text2{
+    line-height: 1vw;
+  }
+  .phoneman{
+    top: 18vw;
+    width: 45.39vw;
+height: 65.2vw;
+  }
+  .battery{
+    height: 27.83vw;
+    width: 30.69vw;
+    top: 10.53vw;
+  }
+  .header-text{
+    font-size: 4vw;
+    /* line-height: 3vw; */
+letter-spacing: 3.5px;
+}
 }
