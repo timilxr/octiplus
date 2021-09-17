@@ -16,31 +16,50 @@
 }
 @import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
                 
+body{
+  background-image: url(./assets/gradient\ background.svg);
+    background-repeat: repeat-y;
 
+}
 .gradient{
-    background-image: linear-gradient(to right, rgb(150, 166, 175), white);
+    /* background-image: linear-gradient(to right, rgb(150, 166, 175), white); */
+    background-image: url(./assets/gradient\ background.svg);
+    /* background-repeat: repeat-y; */
 }
 
+#logo-body{
+  width: 8vw;
+}
 .welcome-text{
   font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 5vw;
-line-height: 5vw;
+font-size: 5.91vw;
+line-height: 4.58vw;
+/* or 84% */
+/* letter-spacing: -2px; */
 
-/* display: flex;
-align-items: center; */
+display: flex;
+align-items: center;
 
 color: #004A80;
+}
+
+header{
+  height: 84px;
 }
 
 .vers-text{
   font-family: Montserrat;
 font-style: normal;
-font-weight: 1000;
-font-size: 9.8vw;
-line-height: 3.2vw;
-letter-spacing: 0.8vw;
+font-weight: 900;
+font-size: 10.8vw;
+line-height: 2.92vw;
+margin-top: 3vw;
+/* margin-top: 30px; */
+/* identical to box height, or 30% */
+
+letter-spacing: 0.0069vw;
 color: #004A80;
 }
 
@@ -48,17 +67,18 @@ color: #004A80;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 22px;
-line-height: 54px;
+font-size: 1.53vw;
+line-height: 3.75vw;
 /* identical to box height, or 245% */
 
-letter-spacing: 8.5px;
+letter-spacing: 0.59vw;
 
 color: #004A80;
 
 }
 
 .native-border{
+  background-color: transparent;
   background-image: url(./assets/ANKARA.svg);
   background-size: auto;
   background-position-y: -85px;
@@ -67,17 +87,23 @@ color: #004A80;
   height: 50px;
 }
 .native-border2{
+  background-color: transparent;
   background-image: url(./assets/ANKARA.svg);
   background-size: auto;
-  background-position-y: -87px;
+  background-position-y: -85px;
   background-repeat: repeat-x;
-  transform: matrix(1, 0, 0, -1, 0, 0);
+  transform: rotate(180deg);
   height: 50px;
 }
 
 #welcome{
-  /* height: 620px; */
+  /* height: 940px; */
   position: relative;
+}
+
+#footer{
+  padding-bottom: 100px;
+  /* background-color: red; */
 }
 
 .footer{
@@ -88,8 +114,8 @@ color: #004A80;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
-font-size: 55px;
-line-height: 34px;
+font-size: 3.819vw;
+line-height: 2.361vw;
 letter-spacing: 0.2px;
 color: #FFFFFF;
 }
@@ -97,30 +123,14 @@ color: #FFFFFF;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
-line-height: 24px;
+font-size: 1.25vw;
+line-height: 2.361vw;
 letter-spacing: 0.2px;
 color: #F9F9FA;
 }
-.footer-bottom div h3{
-  font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-letter-spacing: 8.5px;
-color: #FFFFFF;
-}
-.footer-bottom div p{
-  font-family: Avenir;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-/* line-height: 28px; */
-color: #FFFFFF;
-}
 .footer-bottom div span{
-  font-family: Avenir;
+  font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
+
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -128,79 +138,131 @@ line-height: 28px;
 color: #FFFFFF;
 opacity: 0.5;
 }
+.about{
+  font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
+
+font-style: normal;
+font-weight: 500;
+font-size: 1.35vw;
+/* font-size: 18px; */
+opacity: 1 !important;
+/* line-height: 28px; */
+letter-spacing: 8.5px;
+color: #FFFFFF;
+}
+.footer-bottom div p{
+  font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
+font-style: normal;
+font-weight: 500;
+/* font-size: 16px; */
+font-size: 1.20vw;
+/* line-height: 28px; */
+color: #FFFFFF;
+}
 .colors{
   width: 40vw;
+  margin-left: 35px;
+  margin-top: 70px;
 }
 .phone{
   position: absolute;
-  height: 620px;
-  width: 48vw;
+  height: 43.06vw;
+  width: 41.74vw;
+  /* width: 601px; */
   /* background-color: red; */
-  top: 12vw;
-  right: 7vw;
+  top: 150px;
+  right: 8.27vw;
   background-image: url(./assets/phone.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 }
 
 #services{
+  /* height: 2021px; */
+  padding: 188px 42px 111px 47px !important;
   background: #004A80;
   background-image: url(./assets/bg-oc.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 783px 587px;
+}
+
+#octiplus-life{
+  /* height: 1440px; */
+  position: relative;
+}
+
+.single-service p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.74vw;
+line-height: 1.74vw;
+/* identical to box height, or 96% */
+
+letter-spacing: 0.2px;
+  color: #FFFFFF;
 }
 
 .services-head{
   font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
-font-size: 3vw;
-line-height: 5vw;
-text-align: center;
+font-size: 3.17vw;
+line-height: 4.4vw;
+/* or 128% */
 
+text-align: center;
+letter-spacing: 0.1px;
 color: #FFFFFF;
 }
 
 #demacator1{
   overflow: hidden;
   position: absolute;
-  height: 80%;
-  width: 54vw;
-  /* background-color: red; */
+  height: 78%;
+  width: 100%;
+  /* z-index: 1; */
+  /* background-color: #004b808c; */
   top: 100px;
-  right: 0px;
+  left: 0%;
   background-image: url(./assets/demacator.svg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: 90px -140px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 43vw 100%;
+  background-blend-mode: luminosity;
 }
-
+.welcome-top{
+  padding: 12.64vw 0 16.32vw 9.4vw;
+}
 .welcome-main{
-  padding: 100px 0px 200px 0px;
+  /* width: 100%; */
+  /* background-color: red; */
+  padding: 14.9vw 0px 200px 28.75vw;
 }
 
 #demacator2{
   overflow: hidden;
   position: absolute;
-  height: 80%;
-  width: 38vw;
+  height: 85%;
+  width: 90%;
   /* background-color: red; */
-  top: 0px;
-  left: 90px;
+  top: 4px;
+  left: 5%;
   background-image: url(./assets/demacator1.svg);
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: -200px 20px;
+    background-position: 5vw 0px;
 }
 
 .header-text2{
   font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 4vw;
-line-height: 3vw;
+font-size: 4.17vw;
+line-height: 3.75vw;
+/* line-height: 3vw; */
 color: #004A80;
 }
 
@@ -208,57 +270,79 @@ color: #004A80;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
-font-size: 8vw;
-line-height: 4vw;
+font-size: 8.33vw;
+line-height: 3.75vw;
+/* line-height: 54px; */
 color: #004A80;
 }
 
 .octipus-text{
-  width: 72%;
+  padding-left: 10vw;
+  /* width: 767px; */
+  /* background-color: rgb(0, 238, 255); */
   margin-top: 4vw;
 }
 .octipus-text p{
   font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 1.6vw;
-line-height: 0.5vw;
+font-size: 1.67vw;
+line-height: 1vw;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 0.1px;
 color: #004A80;
 }
 
-.live-main{
-  width: 75%;
-  position: relative;
-}
-
 .buttons{
-  width: 40vw;
+  padding-left: 32vw;
+  /* width: 40vw; */
+  height: 3vw;
+  /* background-color: red; */
 }
 
 .phoneman{
   position: absolute;
-  height: 620px;
-  width: 48vw;
+  /* height: 520px; */
+  /* width: 45vw; */
+  /* display: none; */
   /* background-color: red; */
-  top: 7vw;
-  left: 1.6vw;
+  width: 50.39vw;
+height: 65.2vw;
+left: 4.7vw;
+top: 14.4vw;
   background-image: url(./assets/phoneman.svg);
     background-size: contain;
     background-repeat: no-repeat;
     /* background-position: 400px 200px; */
 }
 
+
 .battery{
     position: absolute;
-    height: 300px;
-    width: 400px;
+    height: 15.83vw;
+    /* height: 300px; */
+    width: 25.69vw;
+    /* width: 370px; */
     /* background-color: red; */
-    top: -70px;
-    right: 100px;
+    top: 1.53vw;
+    /* top: 840px; */
+    right: 200px;
     background-image: url(./assets/battery.svg);
       background-size: contain;
       background-repeat: no-repeat;
       /* background-position: 400px 200px; */
+}
+
+.main-btn{
+  width: 12.89vw;
+  height: 3.819vw;
+}
+.bottom-container{
+  background-image: url(./assets/gradient\ background.svg);
+  background-position: 0 -800px;
+  background-repeat: no-repeat;
 }
 
 .question{
@@ -282,13 +366,21 @@ letter-spacing: 3.5px;
     font-size: 6vw;
     line-height: 7vw;
   }
-  #services p{
+  .single-service p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
     font-size: 4vw;
+    line-height: 4vw;
+    text-align: center;
+    letter-spacing: 0.1vw;
+    color: #FFFFFF;
   }
   #demacator1{
     /* height: 100%; */
     top: 150px;
     width: 100%;
+    display: none;
     /* background-color: red; */
     left: 0;
     background-position: 30px 0px;
@@ -297,6 +389,7 @@ letter-spacing: 3.5px;
     /* height: 100%; */
     top: 0px;
     width: 100%;
+    display: none;
     /* background-color: red; */
     left: 0;
     background-position: -320px 10px;
@@ -321,5 +414,15 @@ letter-spacing: 3.5px;
   }
   .phoneman{
     top: 27vw;
+  }
+  .question{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .battery{
+    top: 60vw;
+  }
+  .footer-bottom div p{
+    font-size: 4vw;
   }
 }
