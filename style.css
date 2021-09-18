@@ -107,19 +107,24 @@ color: #004A80;
 }
 
 #footer{
-  padding-bottom: 6.94vw;
   /* background-color: red; */
+}
+.footer .container{
+height: 20vw !important;
 }
 
 .footer{
+  /* padding-bottom: 6.94vw; */
   background: #343434;
+  /* padding-bottom: 0!important; */
   color: white;
 }
 .footer h1{
   font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
-font-size: 3.819vw;
+font-size: 5.21vw;
+/* font-size: 3.819vw; */
 line-height: 2.361vw;
 letter-spacing: 0.2px;
 color: #FFFFFF;
@@ -153,6 +158,7 @@ font-weight: 500;
 font-size: 1.35vw;
 /* font-size: 18px; */
 opacity: 1 !important;
+margin-right: 10.2vw !important;
 /* line-height: 28px; */
 letter-spacing: 8.5px;
 color: #FFFFFF;
@@ -336,11 +342,13 @@ top: 14.4vw;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 0.25vw;
+font-size: 1.25vw;
 /* font-size: 18px; */
-line-height: 24px;
-padding-left: 4.8vw;
-background-color: red;
+line-height: 1.67vw;
+/* line-height: 24px; */
+margin-top: 1.8vw;
+margin-left: 13.8vw !important;
+/* background-color: red; */
 /* identical to box height, or 133% */
 
 letter-spacing: 0.2px;
@@ -353,14 +361,14 @@ letter-spacing: 0.2px;
 
 .battery{
     position: absolute;
-    height: 15.83vw;
+    height: 20.83vw;
     /* height: 300px; */
-    width: 25.69vw;
+    width: 30.69vw;
     /* width: 370px; */
     /* background-color: red; */
     top: 1.53vw;
     /* top: 840px; */
-    right: 13.89vw;
+    right: 7.89vw;
     background-image: url(./assets/battery.svg);
       background-size: contain;
       background-repeat: no-repeat;
@@ -391,8 +399,8 @@ letter-spacing: 0.2px;
 }
 
 .question{
-  width: 50%;
-  margin-left: 8.33vw;
+  /* width: 70%; */
+  /* margin-left: 8.33vw; */
 }
 
 @media screen and (max-width: 768px) {
@@ -488,6 +496,7 @@ height: 65.2vw;
   .about{
   letter-spacing: 2.5px;
   }
+
   .footer-bottom div p{
   font-size: 1.20vw;
   }
@@ -529,6 +538,10 @@ letter-spacing: 1.5px;
 }
 .social-img{
   width: 12.89vw;
-height: 2.719vw;
+  height: 2.719vw;
+}
+.footer h1{
+  background-color: red;
+line-height: 0px;
 }
 }
