@@ -124,6 +124,7 @@ height: 20vw !important;
 font-style: normal;
 font-weight: 800;
 font-size: 5.21vw;
+margin-top: 3vw;
 /* font-size: 3.819vw; */
 line-height: 2.361vw;
 letter-spacing: 0.2px;
@@ -144,7 +145,7 @@ color: #F9F9FA;
 
 font-style: normal;
 font-weight: 500;
-font-size: 1.20vw;
+font-size: 1.11vw;
 /* font-size: 16px; */
 line-height: 28px;
 color: #FFFFFF;
@@ -155,10 +156,11 @@ opacity: 0.5;
 
 font-style: normal;
 font-weight: 500;
-font-size: 1.35vw;
+font-size: 1.25vw;
+
 /* font-size: 18px; */
 opacity: 1 !important;
-margin-right: 10.2vw !important;
+margin-right: 5.0vw !important;
 /* line-height: 28px; */
 letter-spacing: 8.5px;
 color: #FFFFFF;
@@ -168,7 +170,7 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 500;
 /* font-size: 16px; */
-font-size: 1.20vw;
+font-size: 1.11vw;
 /* line-height: 28px; */
 color: #FFFFFF;
 }
@@ -346,7 +348,8 @@ font-size: 1.25vw;
 /* font-size: 18px; */
 line-height: 1.67vw;
 /* line-height: 24px; */
-margin-top: 1.8vw;
+margin-top: 24px;
+/* margin-top: 1.8vw; */
 margin-left: 13.8vw !important;
 /* background-color: red; */
 /* identical to box height, or 133% */
