@@ -5,15 +5,18 @@
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-@font-face {
     @font-face {
         font-family: 'Montserrate'; /* Define the custom font name */
         src:  url('myfont.woff2') format('woff2'),
               url('myfont.woff') format('woff'); /* Define where the font can be downloaded */
         font-display: fallback; /* Define how the browser behaves during download */
       }
-}
+    @font-face {
+        font-family: 'Avenir'; /* Define the custom font name */
+        src:  url('./assets/avenir_ff/AvenirLTStd-Black.otf') format('otf'); /* Define where the font can be downloaded */
+        font-display: fallback; /* Define how the browser behaves during download */
+      }
+      
 @import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
                 
 body{
@@ -46,6 +49,7 @@ color: #004A80;
 }
 
 header{
+  /* height: 5.83vw; */
   height: 84px;
 }
 
@@ -121,6 +125,7 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 }
 .footer p{
+  margin-left: 5vw;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -130,7 +135,7 @@ letter-spacing: 0.2px;
 color: #F9F9FA;
 }
 .footer-bottom div span{
-  font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
+  font-family: Avenir, sans-serif, Montserrat;
 
 font-style: normal;
 font-weight: 500;
@@ -141,7 +146,7 @@ color: #FFFFFF;
 opacity: 0.5;
 }
 .about{
-  font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
+  font-family: Avenir, sans-serif, Montserrat;
 
 font-style: normal;
 font-weight: 500;
@@ -153,7 +158,7 @@ letter-spacing: 8.5px;
 color: #FFFFFF;
 }
 .footer-bottom div p{
-  font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
+  font-family: Avenir, sans-serif, Montserrat;
 font-style: normal;
 font-weight: 500;
 /* font-size: 16px; */
@@ -322,10 +327,27 @@ color: #004A80;
 height: 65.2vw;
 left: 4.7vw;
 top: 14.4vw;
-  background-image: url(./assets/phoneman.svg);
+  background-image: url(./assets/phoneman/phoneman.png);
     background-size: contain;
     background-repeat: no-repeat;
     /* background-position: 400px 200px; */
+}
+.contact{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 0.25vw;
+/* font-size: 18px; */
+line-height: 24px;
+padding-left: 4.8vw;
+background-color: red;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.2px;
+}
+.question img{
+  width: 22vw;
+  margin-left: 10vw;
 }
 
 
@@ -485,6 +507,9 @@ height: 65.2vw;
   .header-text2{
     line-height: 1vw;
   }
+  header{
+    height: 40px;
+  }
   .phoneman{
     top: 18vw;
     width: 45.39vw;
@@ -496,8 +521,14 @@ height: 65.2vw;
     top: 10.53vw;
   }
   .header-text{
-    font-size: 4vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    margin-right: 5px;
     /* line-height: 3vw; */
-letter-spacing: 3.5px;
+letter-spacing: 1.5px;
+}
+.social-img{
+  width: 12.89vw;
+height: 2.719vw;
 }
 }
