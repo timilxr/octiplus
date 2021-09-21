@@ -88,11 +88,11 @@ color: #004A80;
   background-color: transparent;
   background-image: url(./assets/ANKARA.svg);
   background-size: cover;
-  background-position-y: -6.003vw;
+  background-position-y: -5.803vw;
   /* background-position-y: -85px; */
   background-repeat: repeat-x;
   /* width: 100vw; */
-  height: 7vw;
+  height: 47px;
 }
 .native-border2{
   background-color: transparent;
