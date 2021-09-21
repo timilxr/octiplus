@@ -5,6 +5,7 @@
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
     @font-face {
         font-family: 'Montserrate'; /* Define the custom font name */
         src:  url('myfont.woff2') format('woff2'),
@@ -27,6 +28,7 @@ body{
 .gradient{
     /* background-image: linear-gradient(to right, rgb(150, 166, 175), white); */
     background-image: url(./assets/gradient\ background.svg);
+    background-size: cover;
     /* background-repeat: repeat-y; */
 }
 
@@ -85,20 +87,22 @@ color: #004A80;
 .native-border{
   background-color: transparent;
   background-image: url(./assets/ANKARA.svg);
-  background-size: auto;
-  background-position-y: -85px;
+  background-size: cover;
+  background-position-y: -6.003vw;
+  /* background-position-y: -85px; */
   background-repeat: repeat-x;
   /* width: 100vw; */
-  height: 50px;
+  height: 7vw;
 }
 .native-border2{
   background-color: transparent;
   background-image: url(./assets/ANKARA.svg);
-  background-size: auto;
-  background-position-y: -85px;
+  background-size: cover;
+  /* background-position-y: -85px; */
+  background-position-y: -6.003vw;
   background-repeat: repeat-x;
   transform: rotate(180deg);
-  height: 50px;
+  height: 7vw;
 }
 
 #welcome{
@@ -125,6 +129,7 @@ font-style: normal;
 font-weight: 800;
 font-size: 5.41vw;
 margin-top: 3vw;
+/* background: red;; */
 /* font-size: 3.819vw; */
 line-height: 2.361vw;
 letter-spacing: 0.2px;
@@ -356,10 +361,10 @@ margin-left: 13.8vw !important;
 
 letter-spacing: 0.2px;
 }
-.question img{
+/* .question img{
   width: 22vw;
   margin-left: 10vw;
-}
+} */
 
 
 .battery{
@@ -553,4 +558,46 @@ margin-top: 3vw;
 .social{
   width: 10vw;
 }
+}
+@media screen and (min-width: 1455px) {
+  .native-border{
+    background-position-y: -6.003vw;
+    /* background: red; */
+    /* background-position-y: -85px; */
+    height: 7vw;
+  }
+  .native-border2{
+    background-position-y: -6.003vw;
+    /* background-position-y: 0px; */
+    height: 7vw;
+    /* height: 50px; */
+  }
+  #demacator1{
+    overflow: hidden;
+    position: absolute;
+    height: 78%;
+    width: 100%;
+    /* z-index: 1; */
+    /* background-color: #004b808c; */
+    top: 100px;
+    left: 0%;
+    background-image: url(./assets/demacator.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 47vw 100%;
+    background-blend-mode: luminosity;
+  }
+  #demacator2{
+    overflow: hidden;
+    position: absolute;
+    height: 85%;
+    width: 90%;
+    /* background-color: red; */
+    top: 4px;
+    left: 5%;
+    background-image: url(./assets/demacator1.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 10vw 0px;
+  }
 }
