@@ -34,6 +34,10 @@ body{
 
 #logo-body{
   width: 8vw;
+  /* height: 5vw; */
+}
+.logo{
+  width: 4vw;
 }
 .welcome-text{
   font-family: Montserrat;
@@ -51,8 +55,8 @@ color: #004A80;
 }
 
 header{
-  /* height: 5.83vw; */
-  height: 84px;
+  height: 5.83vw;
+  /* height: 84px; */
 }
 
 .vers-text{
@@ -158,6 +162,9 @@ font-size: 1.11vw;
 line-height: 28px;
 color: #FFFFFF;
 opacity: 0.5;
+}
+.color-text{
+  width: 31.861vw;
 }
 .about{
   font-family: Avenir, sans-serif, Montserrat;
@@ -434,6 +441,12 @@ letter-spacing: 0.2px;
     /* line-height: 3vw; */
 letter-spacing: 3.5px;
 }
+header{
+  height: 6.8vw;
+}
+.logo{
+  width: 6vw;
+}
   .phone{
     /* display: none; */
     /* height: 30vw; */
@@ -477,6 +490,10 @@ letter-spacing: 3.5px;
   }
   .header-text2{
     line-height: 2.8vw;
+  }
+  .service-img{
+    width: 80vw;
+    margin-left: 10vw;
   }
   .vers-text2{
     font-size: 7vw;
