@@ -68,6 +68,9 @@ margin-top: 3vw;
 letter-spacing: 0.0069vw;
 color: #004A80;
 }
+.dash{
+  width: 2vw;
+}
 
 .header-text{
 font-family: Montserrat;
@@ -405,6 +408,7 @@ letter-spacing: 0.2px;
   height: 3.819vw;
 }
 .bottom-container{
+  /* background-color: red; */
   background-image: url(./assets/gradient\ background.svg);
   background-position: 0 -800px;
   background-repeat: no-repeat;
