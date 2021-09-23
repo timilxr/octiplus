@@ -553,14 +553,10 @@ height: 65.2vw;
     height: 30px;
   }
   .native-border2{
-    /* background-color: linear-gradient(rgb(247, 0, 0), #817070); */
-    /* background-image: url(./assets/ANKARA.svg);
-    background-size: cover; */
-    /* background-position-y: -85px; */
     background-position-y: -6.003vw;
     /* background-repeat: repeat-x;
     transform: rotate(180deg); */
-    height: 3.6vw;
+    height: 4.6vw;
   }
   .phone{
     top: 4.417vw;
