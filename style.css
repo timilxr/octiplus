@@ -95,14 +95,14 @@ color: #004A80;
   height: 47px;
 }
 .native-border2{
-  background-color: transparent;
+  /* background-color: linear-gradient(rgb(247, 0, 0), #817070); */
   background-image: url(./assets/ANKARA.svg);
   background-size: cover;
   /* background-position-y: -85px; */
   background-position-y: -6.003vw;
   background-repeat: repeat-x;
   transform: rotate(180deg);
-  height: 7vw;
+  height: 3.5vw;
 }
 
 #welcome{
@@ -114,7 +114,7 @@ color: #004A80;
   /* background-color: red; */
 }
 .footer .container{
-height: 20vw !important;
+height: 15vw !important;
 }
 
 .footer{
@@ -197,7 +197,9 @@ color: #FFFFFF;
   width: 41.74vw;
   /* width: 601px; */
   /* background-color: red; */
-  top: 150px;
+  /* top: 150px; */
+  top: 6.417vw;
+  /* right: 56.6px; */
   right: 4.27vw;
   background-image: url(./assets/phone.svg);
     background-size: contain;
@@ -207,7 +209,7 @@ color: #FFFFFF;
 
 #services{
   /* height: 2021px; */
-  padding: 13.06vw 2.92vw 7.71vw 3.26vw !important;
+  padding: 5.06vw 2.92vw 2.71vw 3.26vw !important;
   /* padding: 188px 42px 111px 47px !important; */
   background: #004A80;
   background-image: url(./assets/bg-oc.svg);
@@ -246,23 +248,33 @@ letter-spacing: 0.1px;
 color: #FFFFFF;
 }
 
+.service-img{
+  /* display: block; */
+  width: 37.67vw;
+  /* height: 2vw !important; */
+}
+
 #demacator1{
   overflow: hidden;
   position: absolute;
-  height: 78%;
-  width: 100%;
+  height: 48vw;
+  width: 90vw;
+  /* width: 100%; */
   /* z-index: 1; */
   /* background-color: #004b808c; */
-  top: 100px;
+  /* background-color: red; */
+  /* top: 100px; */
+  bottom: 2vw;
   left: 0%;
   background-image: url(./assets/demacator.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 43vw 100%;
+  background-position: 43vw 0vw;
   background-blend-mode: luminosity;
 }
 .welcome-top{
   padding: 12.64vw 0 16.32vw 9.4vw;
+  position: relative;
 }
 .welcome-main{
   /* width: 100%; */
@@ -273,15 +285,15 @@ color: #FFFFFF;
 #demacator2{
   overflow: hidden;
   position: absolute;
-  height: 85%;
-  width: 90%;
+  height: 40vw;
+  width: 90vw;
   /* background-color: red; */
   top: 4px;
   left: 5%;
   background-image: url(./assets/demacator1.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 5vw 0px;
+    background-position: 5vw 1vw;
 }
 
 .header-text2{
@@ -305,7 +317,7 @@ color: #004A80;
 }
 
 .octipus-text{
-  padding-left: 10vw;
+  padding-left: 18vw;
   /* width: 767px; */
   /* background-color: rgb(0, 238, 255); */
   margin-top: 4vw;
@@ -318,7 +330,7 @@ font-size: 1.67vw;
 line-height: 1vw;
 /* identical to box height, or 133% */
 
-text-align: center;
+/* text-align: center; */
 letter-spacing: 0.1px;
 color: #004A80;
 }
@@ -338,8 +350,8 @@ color: #004A80;
   /* background-color: red; */
   width: 50.39vw;
 height: 65.2vw;
-left: 4.7vw;
-top: 14.4vw;
+left: 3.7vw;
+top: 13.4vw;
   background-image: url(./assets/phoneman/phoneman.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -396,6 +408,7 @@ letter-spacing: 0.2px;
   background-image: url(./assets/gradient\ background.svg);
   background-position: 0 -800px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .social{
   width: 10vw;
@@ -421,17 +434,20 @@ letter-spacing: 3.5px;
     /* display: none; */
     /* height: 30vw; */
     /* background-color: red;; */
-    top: 19vw;
+    top: 7vw;
   }
   .services-head{
-    font-size: 6vw;
-    line-height: 7vw;
+    /* font-size: 50px; */
+    /* font-size: 3.125em; */
+    font-size: 4vw;
+    line-height: 5vw;
   }
+  
   .single-service p{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 4vw;
     text-align: center;
     letter-spacing: 0.1vw;
@@ -476,19 +492,20 @@ letter-spacing: 3.5px;
     padding-left: 25vw;
   }
   .phoneman{
-    top: 20vw;
+    top: 18vw;
     width: 45.39vw;
 height: 65.2vw;
   }
   .question{
     width: 100%;
+    /* background: red; */
     /* margin: 0 auto; */
   }
   .battery{
     height: 14.83vw;
     width: 25.69vw;
     /* background-color: red; */
-    top: 5.53vw;
+    top: 2.53vw;
   }
   .footer-bottom div p{
     font-size: 4vw;
@@ -524,18 +541,38 @@ height: 65.2vw;
   .header-text2{
     line-height: 1vw;
   }
+  .native-border{
+    background-position-y: -5.803vw;
+    /* background-position-y: -85px; */
+    background-repeat: repeat-x;
+    /* width: 100vw; */
+    height: 30px;
+  }
+  .phone{
+    top: 4.417vw;
+    /* right: 56.6px; */
+    right: 4.27vw;
+  }
+  .service-img{
+    width: 78vw;
+  }
   header{
     height: 40px;
   }
+  .octipus-text{
+    padding-left: 13vw;
+    margin-top: 4vw;
+  }
   .phoneman{
-    top: 18vw;
+    top: 12.5vw;
     width: 45.39vw;
 height: 65.2vw;
   }
   .battery{
-    height: 27.83vw;
+    height: 17.83vw;
     width: 30.69vw;
-    top: 10.53vw;
+    /* background-color: red; */
+    top: 1.53vw;
   }
   .header-text{
     font-size: 3vw;
