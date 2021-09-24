@@ -1,24 +1,16 @@
 *{
     box-sizing: border-box;
-    font-family: Montserrat,'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'Avenir LT Std','Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
     @font-face {
-        font-family: 'Montserrate'; /* Define the custom font name */
-        src:  url('myfont.woff2') format('woff2'),
-              url('myfont.woff') format('woff'); /* Define where the font can be downloaded */
-        font-display: fallback; /* Define how the browser behaves during download */
-      }
-    @font-face {
         font-family: 'Avenir'; /* Define the custom font name */
         src:  url('./assets/avenir_ff/AvenirLTStd-Black.otf') format('otf'); /* Define where the font can be downloaded */
         font-display: fallback; /* Define how the browser behaves during download */
       }
-      
-@import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
                 
 body{
   background-image: url(./assets/gradient\ background.svg);
@@ -40,9 +32,9 @@ body{
   width: 4vw;
 }
 .welcome-text{
-  font-family: Montserrat;
+  font-family: 'Avenir LT Std';
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 5.91vw;
 line-height: 4.58vw;
 /* or 84% */
@@ -60,9 +52,9 @@ header{
 }
 
 .vers-text{
-  font-family: 'Montserrat';
+  font-family: 'Avenir LT Std';
 font-style: normal;
-font-weight: 900;
+font-weight: 800;
 font-size: 10.8vw;
 line-height: 2.92vw;
 margin-top: 3vw;
@@ -77,9 +69,9 @@ color: #004A80;
 }
 
 .header-text{
-font-family: Montserrat;
+font-family: 'Avenir LT Std';
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 1.53vw;
 line-height: 3.75vw;
 padding-top: 1vw;
@@ -131,7 +123,7 @@ height: 15vw !important;
   color: white;
 }
 .footer h1{
-  font-family: Montserrat;
+  font-family: 'Avenir LT Std';
 font-style: normal;
 font-weight: 800;
 font-size: 5.41vw;
@@ -144,16 +136,16 @@ color: #FFFFFF;
 }
 .footer p{
   margin-left: 5vw;
-  font-family: Montserrat;
+  font-family: 'Avenir LT Std';
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 1.25vw;
 line-height: 2.361vw;
 letter-spacing: 0.2px;
 color: #F9F9FA;
 }
 .footer-bottom div span{
-  font-family: Avenir, sans-serif, Montserrat;
+  font-family: 'Avenir LT Std', Avenir, sans-serif;
 
 font-style: normal;
 font-weight: 500;
@@ -167,10 +159,10 @@ opacity: 0.5;
   width: 31.861vw;
 }
 .about{
-  font-family: Avenir, sans-serif, Montserrat;
+  font-family: 'Avenir LT Std', Avenir, sans-serif;
 
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 font-size: 1.25vw;
 
 /* font-size: 18px; */
@@ -180,10 +172,10 @@ margin-right: 5.0vw !important;
 letter-spacing: 8.5px;
 color: #FFFFFF;
 }
-.footer-bottom div p{
-  font-family: Avenir, sans-serif, Montserrat;
+.terms{
+  font-family: 'Avenir LT Std', Avenir, sans-serif;
 font-style: normal;
-font-weight: 500;
+font-weight: p00;
 /* font-size: 16px; */
 font-size: 1.11vw;
 /* line-height: 28px; */
@@ -210,7 +202,7 @@ color: #FFFFFF;
   /* top: 150px; */
   top: 7.917vw;
   /* right: 56.6px; */
-  right: 4.27vw;
+  right: 12.27vw;
   background-image: url(./assets/phone.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -234,9 +226,9 @@ color: #FFFFFF;
 }
 
 .single-service p{
-  font-family: Montserrat;
+  font-family: 'Avenir LT Std';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.74vw;
 line-height: 1.74vw;
 /* identical to box height, or 96% */
@@ -246,7 +238,7 @@ letter-spacing: 0.2px;
 }
 
 .services-head{
-  font-family: Montserrat;
+  font-family: 'Avenir LT Std';
 font-style: normal;
 font-weight: 800;
 font-size: 3.17vw;
@@ -307,9 +299,9 @@ color: #FFFFFF;
 }
 
 .header-text2{
-  font-family: Montserrat;
+  font-family: 'Avenir LT Std';
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 4.17vw;
 line-height: 3.75vw;
 /* line-height: 3vw; */
@@ -317,7 +309,7 @@ color: #004A80;
 }
 
 .vers-text2{
-  font-family: Montserrat;
+  font-family: 'Avenir LT Std';
 font-style: normal;
 font-weight: 800;
 font-size: 8.33vw;
@@ -333,9 +325,9 @@ color: #004A80;
   margin-top: 4vw;
 }
 .octipus-text p{
-  font-family: 'Avenir LT Std', Roboto, Montserrat, sans-serif;
+  font-family: 'Avenir LT Std', Roboto, 'Avenir LT Std', sans-serif;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 1.67vw;
 line-height: 1vw;
 /* identical to box height, or 133% */
@@ -368,7 +360,7 @@ top: 13.4vw;
     /* background-position: 400px 200px; */
 }
 .contact{
-  font-family: Montserrat;
+  font-family: 'Avenir LT Std';
 font-style: normal;
 font-weight: 500;
 font-size: 1.25vw;
@@ -461,7 +453,7 @@ header{
   }
   
   .single-service p{
-    font-family: Montserrat;
+    font-family: 'Avenir LT Std';
     font-style: normal;
     font-weight: normal;
     font-size: 3vw;
