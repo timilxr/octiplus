@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Avenir LT Std','Segoe UI', 'Roboto', 'Oxygen',
+    font-family: 'Avenir LT Std', 'Avenir', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,6 +11,7 @@
         src:  url('./assets/avenir_ff/AvenirLTStd-Black.otf') format('otf'); /* Define where the font can be downloaded */
         font-display: fallback; /* Define how the browser behaves during download */
       }
+      @import url('https://fonts.cdnfonts.com/css/avenir-lt-std?styles=15286,15281,15277,15283,15279,15275');
                 
 body{
   background-image: url(./assets/gradient\ background.svg);
@@ -427,7 +428,7 @@ letter-spacing: 0.2px;
   /* margin-left: 8.33vw; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-text{
     font-size: 3vw;
     /* line-height: 3vw; */
@@ -442,7 +443,8 @@ header{
   .phone{
     /* display: none; */
     /* height: 30vw; */
-    /* background-color: red;; */
+  right: 13.27vw;
+  /* background-color: red;; */
     top: 7vw;
   }
   .services-head{
@@ -570,9 +572,10 @@ height: 65.2vw;
   .phone{
     top: 4.417vw;
     /* right: 56.6px; */
-    right: 4.27vw;
+    right: 10.87vw;
   }
   .service-img{
+    margin-left: 0vw;
     width: 78vw;
   }
   header{
@@ -621,6 +624,9 @@ margin-top: 3vw;
     /* background: red; */
     /* background-position-y: -85px; */
     height: 7vw;
+  }
+  .phone{
+    right: 13.7vw;
   }
   .native-border2{
     background-position-y: -6.003vw;
