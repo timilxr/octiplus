@@ -403,6 +403,15 @@ letter-spacing: 0.2px;
   height: 3.819vw;
 }
 
+.getting-started{
+  width: 13vw;
+  /* height: 4vw; */
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  font-size: 1.7vw;
+}
+
 .social-img{
   width: 12.89vw;
   height: 3.819vw;
