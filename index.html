@@ -44,6 +44,54 @@
 
     <!-- End Google Tag Manager (noscript) -->
     <main class="container-fluid p-0">
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true" data-backdrop='static' data-show="true" data-focus="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content text-white" style="color: white; background-color: #004A80;">
+                    <div class="modal-header border-0">
+                        <div>
+                            <h3 class="modal-title font-weight-bolder" id="exampleModalLabel">Getting Started</h3>
+                        </div>
+                        <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form method="post">
+                        <div class="modal-body pt-0 px-md-5">
+                            <p class="m-0 text-center">Kindly fill the form below and we'll get back to you. Thank you.</p>
+                            <div class="form-group">
+                                <label for="inputName">Full Name</label>
+                                <input type="text" class="form-control" id="inputName" autofocus name="fullname"
+                                    placeholder="Adeyemi Micheal Chidozie" required />
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" name="email" id="inputEmail"
+                                        placeholder="micheal@email.com" required />
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPhone4">Phone</label>
+                                    <input type="tel" pattern="[0-9]{11}" class="form-control" name="phone"
+                                        placeholder="08023476589" id="inputPhone" required />
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" style="background-color: rgb(19, 19, 19);" class="btn text-white">Submit</button>
+                            </div>
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">I have signed up
+                                already</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                        </div> -->
+                    </form>
+                </div>
+            </div>
+        </div>
         <header class="container-fluid bg-white py-0 py-md-3">
             <div class="container-fluid d-inline-flex h-100 align-items-center justify-content-right">
                 <a href="#octiplus-life" class="text-decoration-none ml-auto header-text">
@@ -71,14 +119,11 @@
                         <img class="img-fluid color-text" src="./assets/color text.svg" alt="">
                     </div>
                     <div class="d-flex colors2">
-                        <a href="https://apps.apple.com/ng/app/octiplus/id1578621670" target="_blank"
-                            class="mx-2 text-decoration-none">
-                            <img class="img-fluid main-btn" src="./assets/Black.svg" target="_blank" alt="" />
-                        </a>
-                        <a href="https://play.google.com/store/apps/details?id=com.heritage.app.heritage_octiplus"
-                            target="_blank" class="mx-2 text-decoration-none">
-                            <img class="img-fluid main-btn" src="./assets/Black2.svg" target="_blank" alt="" />
-                        </a>
+                        <!-- Button trigger modal -->
+                        <button type="button" style="color: white; background-color: #004A80;" class="btn main-btn mx-2"
+                            data-toggle="modal" data-target="#exampleModal">
+                            Get Started
+                        </button>
                     </div>
                 </div>
                 <div class="phone"></div>
@@ -242,6 +287,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <!-- <script>
+        $('#exampleModal').modal('show');
+    </script> -->
 </body>
 
 </html>
